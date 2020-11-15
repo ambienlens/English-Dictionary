@@ -5,6 +5,7 @@ INPUT:
 Enter the word whose meaning you disire to find
 
 AI: The program will also have a minimal AI System
+    - It will guess the name
 
 OUTPUT:
 The meaing of the word you entered
