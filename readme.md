@@ -1,2 +1,8 @@
-#Debayan Majudmer 2020
-#This is a python script
+# Bracket-Balancing
+It contains a python script that checks if your code has any bracket imperfections in them
+
+INPUT:
+Enter the word whose meaning you disere to find
+
+OUTPUT:
+The meaing of the word you entered
