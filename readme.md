@@ -1,5 +1,5 @@
 # English Dictionary
-# DEBAYAN MAJUMDER 2020
+DEBAYAN MAJUMDER 2020
 It contains a python script that returns you with the meaning of the word you entered.
 
 INPUT:
