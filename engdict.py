@@ -1,5 +1,5 @@
-#Debayan Majumder 2020
-#Verion 1.1
+#DEBAYAN MAJUMDER 2020
+#Verion 1.3
 #This is a python script, which returns the meaning of a word entered by the User.
 
 #importing std. libraries
@@ -31,7 +31,7 @@ def findMeaning(key):
     elif (len(get_close_matches(key, myData.keys(), cutoff=cOff)) != 0):
 
         #Checking if the close match produces an empty list, which means there are no close matches.
-        choice = input("Did you mean %s instead. Press Y for Yes and N for No: "% get_close_matches(key, myData.keys(), cutoff=cOff)[0].capitalize())
+        choice = input("Did you mean %s instead? Press Y for Yes and N for No: "% get_close_matches(key, myData.keys(), cutoff=cOff)[0].capitalize())
         newWord = get_close_matches(key, myData.keys(), cutoff=cOff)[0]
 
         if choice.lower() == "y":
